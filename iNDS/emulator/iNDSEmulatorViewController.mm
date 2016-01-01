@@ -340,7 +340,7 @@ const float textureVert[] =
     NSLog(@"Loading ROM %@", self.game.path);
     EMU_setWorkingDir([[self.game.path stringByDeletingLastPathComponent] fileSystemRepresentation]);
     EMU_init([iNDSGame preferredLanguage]);
-    EMU_setCPUMode(1);//[[NSUserDefaults standardUserDefaults] boolForKey:@"enableLightningJIT"] ? 2 : 1);
+    EMU_setCPUMode(2);//[[NSUserDefaults standardUserDefaults] boolForKey:@"enableLightningJIT"] ? 2 : 1);
     EMU_loadRom([self.game.path fileSystemRepresentation]);
     EMU_change3D(1);
         
