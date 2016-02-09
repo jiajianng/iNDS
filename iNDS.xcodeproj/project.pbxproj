@@ -1906,7 +1906,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ApprenticeMediaLLC.iNDS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JJGadgets.iNDS;
 				PRODUCT_NAME = iNDS;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1959,7 +1959,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ApprenticeMediaLLC.iNDS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JJGadgets.iNDS;
 				PRODUCT_NAME = iNDS;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
